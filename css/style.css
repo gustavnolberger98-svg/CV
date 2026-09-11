@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #c5d1dd;
+}
+
+main {
+    display: grid;
+}
+
+.vänster {
+    background: #263238;
+    color: rgb(255, 255, 255);
+    padding: 30px; 
+}
+
+.höger {
+    background: rgb(171, 198, 209);
+    color: black;
+    padding: 30px;
+}
+
+.höger h2 {
+    border-bottom: 2px
+    solid black;
+    padding-bottom: 8px;
+}
+
+.vänster h2 {
+    border-bottom: 2px
+    solid white; 
+    padding-bottom: 8px; 
+}
+
+img {
+    width: 225px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+}
+
+.övningar a {
+    padding: 30px;
+}
+
+footer {
+    padding: 30px;
+    background: #263238;
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+
+footer a {
+    color:rgb(255, 255, 255);
+
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 300px 1fr;
+        max-width: 1100px;
+        margin: 40px auto;
+    }
+}
+
+
